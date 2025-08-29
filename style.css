@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #7ab4ee;
+  direction: ltr;
+}
+
+header {
+display: flex;
+  background: #070e12;
+  color: white;
+  /* padding: 15px; */
+}
+h1{
+    margin-left: 60px;
+}
+.logo {
+height: 60px;
+width: 60px;
+margin-top: 10px;
+}
+nav{
+    margin-left: 400px;
+    margin-top: 10px;
+
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  /* margin: 0; */
+  /* padding: 10px; */
+}
+
+nav ul li {
+  margin-left: 90px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.intro {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.intro img {
+width: 200px;
+height: 200px;
+border-radius: 10px;
+margin-top: 10px;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.articles article {
+  background: white;
+  padding: 15px;
+  border: 3px solid #eddbdb;
+  border-radius: 20px;
+  width: 30%;
+  height: 200px;
+  
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+blockquote {
+  margin: 20px;
+  padding: 15px;
+  background: #e0f7fa;
+  border-left: 5px solid #0077b6;
+}
+
+footer {
+  text-align: center;
+  background: #0077b6;
+  color: white;
+  padding: 10px;
+  margin-top: 180px;
+}
+h2{
+    margin-top: 70px;
+}
